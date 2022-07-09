@@ -35,4 +35,6 @@ echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
 Rose was downloaded successfully. 
 To make sure, we type the command:
 
-roscore
+roscd
+
+/opt/ros/noetic roscore
