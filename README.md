@@ -47,4 +47,5 @@ To make sure, we type the command:
 
   /opt/ros/noetic roscore
 
+![gh](https://user-images.githubusercontent.com/108008564/179799530-a0530174-cfaa-4aa9-b0d3-3d9fb9baa151.png)
 
