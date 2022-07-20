@@ -18,34 +18,70 @@ https://wiki.ros.org/noetic/Installation/Ubuntu
 
 # Configure your Ubuntu respositories
 
+```
+
   echo "deb http://packages.ros.org/ros/ubuntu focal main" | sudo tee /etc/apt/sources.list.d/ros-focal.list 
+
+```
 
 * Set up your keys
 
+```
+
   sudo apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654 
+
+```
+
+```
 
   curl -sSL 'http://keyserver.ubuntu.com/pks/lookup?op=get&search=0xC1CF6E31E6BADE8868B172B4F42ED6FBAB17C654' | sudo apt-key add -
 
+```
+
 # Installation
+
+```
 
   sudo apt update
 
+```
+
 * Desktop-Full Install:
+
+```
 
   sudo apt install ros-noetic-desktop-full
 
+```
+
 # Environment setup
+
+```
 
   source /opt/ros/noetic/setup.bash
 
+```
+
+```
+
   echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
+
+```
 
 * Rose was downloaded successfully. 
 To make sure, we type the command:
 
+```
+
    roscd
 
+```
+
+```
+
   /opt/ros/noetic roscore
+
+```
 
 ![gh](https://user-images.githubusercontent.com/108008564/179799530-a0530174-cfaa-4aa9-b0d3-3d9fb9baa151.png)
 
